@@ -1,0 +1,8 @@
+@startuml
+actor User
+
+User -> system: 设置目录生成策略
+User -> system: 上传epub文件
+User <-- system: 生成.xmind文件
+
+@enduml
